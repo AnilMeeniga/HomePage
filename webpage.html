@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RRTECH Home Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      body {
+        font-family: 'Segoe UI', sans-serif;
+      }
+      .hero-section {
+        background-color: #eaf4ff;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      .hero-section h1 {
+        font-size: 3rem;
+        font-weight: 700;
+        color: #002244;
+      }
+      .hero-section p {
+        color: #555;
+        max-width: 600px;
+        margin: 0 auto 20px;
+      }
+      .about-section {
+        padding: 60px 0;
+      }
+      .about-section h1 {
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: #002244;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .about-section p {
+        color: #666;
+        text-align: center;
+        max-width: 700px;
+        margin: 0 auto;
+      }
+      .courses-section {
+        padding: 60px 0;
+        background-color: #f8f9fa;
+      }
+      .courses-section h1 {
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: #002244;
+        text-align: center;
+        margin-bottom: 40px;
+      }
+      .product-card img {
+        height: 200px;
+        object-fit: cover;
+      }
+      .card-title {
+        font-weight: 600;
+        color: #002244;
+      }
+    </style>
+  </head>
+  <body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm">
+      <div class="container">
+        <a class="navbar-brand fw-bold text-dark" href="#">
+          <img src="C:\Users\india\Downloads\rrtech.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+          RRTECH
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+          </ul>
+          <form class="d-flex ms-3">
+            <button class="btn btn-danger rounded-pill" type="submit">Reach Us</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section">
+      <div>
+        <h1>Get Certified. Get Ahead.</h1>
+        <p>Join thousands of students advancing their careers with RRtech.</p>
+        <button class="btn btn-primary btn-lg rounded-pill">Explore Courses</button>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <div class="about-section">
+      <h1>About Us</h1>
+      <p>RRtech is a trusted consultancy and education platform, offering industry-focused certifications and training programs.We empower students and professionals with practical skills aligned to today’s job market.
+      Our expert-led courses and personalized mentorship help learners achieve career growth with confidence.</p>
+    </div>
+
+    <!-- Popular Courses Section -->
+    <div class="courses-section">
+      <div class="container">
+        <h1>Popular Courses</h1>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card product-card shadow-sm">
+              <img src="C:\Users\india\Downloads\datametrics.jpg" class="card-img-top" alt="Data Analyst">
+              <div class="card-body text-center">
+                <h5 class="card-title">Data Analyst</h5>
+                <p class="card-text">A data analyst gathers, cleans, analyzes and interprets data to help businesses make decisions.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card product-card shadow-sm">
+              <img src="C:\Users\india\Downloads\cyber.png" class="card-img-top" alt="Cyber Security">
+              <div class="card-body text-center">
+                <h5 class="card-title">Cyber Security</h5>
+                <p class="card-text">Cybersecurity protects computer systems, networks and data from digital attacks and breaches.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card product-card shadow-sm">
+              <img src="C:\Users\india\Downloads\gen.png" class="card-img-top" alt="Gen AI">
+              <div class="card-body text-center">
+                <h5 class="card-title">Generative AI</h5>
+                <p class="card-text">Generative AI creates new content such as text, images, audio and code using artificial intelligence systems.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
